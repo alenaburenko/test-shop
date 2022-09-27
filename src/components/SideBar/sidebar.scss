@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.sidebar__links{
+margin-right: 119px;
+&_link{
+    display: block;
+    text-decoration: none;
+    color:#333333;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+}
+// @media (max-width: 390px) {
+//     .sidebar__links{
+//         margin-left:10%;
+//         margin-right: 20%;
+//         &_link{
+//             display: block;
+//             text-decoration: none;
+//             color:#333333;
+//             cursor: pointer;
+//             padding-bottom: 10px;
+//         }
+//     }}

@@ -1,0 +1,71 @@
+
+.header {
+  &__logo {
+    width: 62px;
+    margin-top: 74px;
+    margin-bottom: 94px;
+    position: relative;
+  }
+  &__filter-rectangle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+   right: 2%;
+    top:-32px;
+  
+    > button{
+      margin-right: 10px;
+      cursor: pointer;
+       border: none; 
+      outline: none;
+     background-color: white;
+    }
+
+      &-double{
+        border: 1px solid #333333;
+        margin-left: 2px;
+        padding: 2px 0 3px 7px;
+       
+      &.active{
+        border: 1px solid #8B8B8B;
+      }
+  }
+    
+    &-quadruple{
+      width: 9px;
+      height: 10px;
+      border: 1px solid #333333;
+      &.active{
+        border: 1px solid #8B8B8B;
+      }
+    }
+
+  }
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+@media (max-width: 992px) {
+   
+  &__filter-rectangle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+   right: -40%;
+    top:191px;
+    overflow-x:hidden;
+  }
+}
+
+@media (max-width: 390px) {
+  .header {
+    &__filter-rectangle{
+      display: none;
+    }
+  }
+}
+
+  
