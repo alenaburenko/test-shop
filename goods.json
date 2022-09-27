@@ -29,7 +29,7 @@
             "id": 4, 
             "title": "Футболка",
             "price": 900,
-            "imgSrc": "./img/t-shirt.png",
+            "imgSrc": "img/t-shirt.png",
             "artNum": 48,
             "color": "" 
         },
